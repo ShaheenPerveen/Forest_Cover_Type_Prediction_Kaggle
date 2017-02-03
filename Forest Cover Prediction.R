@@ -27,6 +27,7 @@ for(i in 1:dim(train)[1]){
 ## create one column with different levels
 
 train$Wilderness_Area <- 0   ## similar to soil type creating column for wilderness area which will 
+
 ## vary from 1 to 4, each number for each swilderness area, thus soil type 
 ## essentially becomes a categorical variable
 
@@ -90,7 +91,6 @@ corrgram(corrgram.data[,corrgram.vars], order=FALSE, lower.panel=NULL,
          text.panel=panel.txt, main="Forest Data")
 
 ## although some variables were correlated but they cannot be removed based on domain significane
-
 
 
 ## to check if the categorical variables are dependant or not
