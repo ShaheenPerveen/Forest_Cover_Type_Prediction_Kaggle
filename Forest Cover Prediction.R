@@ -68,7 +68,7 @@ for(i in 1:dim(train1)[2]){
 }
 
 
-##### DATA IS CLEAN, OUTLIERS VALUES ARE NOT THERE AND NO MISSONG VALUES FOUND
+##### DATA IS CLEAN, OUTLIER VALUES ARE NOT THERE AND NO MISSING VALUES FOUND
 
 #####################################################################################
 ###### ANALYSIS OF CORRELATION BETWEEN FEATURES #######
@@ -90,7 +90,7 @@ corrgram(corrgram.data[,corrgram.vars], order=FALSE, lower.panel=NULL,
          upper.panel=panel.pie, 
          text.panel=panel.txt, main="Forest Data")
 
-## although some variables were correlated but they cannot be removed based on domain significane
+## although some variables were correlated but they cannot be removed based on domain significance
 
 
 ## to check if the categorical variables are dependant or not
@@ -124,7 +124,7 @@ for (i in 1:10) {
 #### MODELLING ####
 ###################
 
-## CONSIDERING THE NATURE OF DATA, AS IT CONTAINS CATEGORICAL VARIABLES, AND IT 
+## CONSIDERING THE NATURE OF DATA, AS IT CONTAINS CATEGORICAL VARIABLES
 ## random forest
 
 set.seed(1)
