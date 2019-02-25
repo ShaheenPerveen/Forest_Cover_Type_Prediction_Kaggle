@@ -4,7 +4,7 @@ Used cartographic variables to classify forest categories for a given 30 x 30 me
 
 - Applied regression analysis to determine the statistical significance of features to be used for the classification of forest cover type of an area
 
-- Performed processing of data and feature selection using EDA, Correlation Matrix, Chi square test and ANOVA to train the model
+- Performed data preprocessing and feature selection using EDA, Correlation Matrix, Chi square test and ANOVA to train the model
 
 - Applied Gradient Boosting Method for classification, tuned parameters of gbm model to obtain training and test accuracy of 74% and 67% 
 
